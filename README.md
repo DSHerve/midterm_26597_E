@@ -17,7 +17,8 @@ This project is an enterprise-grade backend system designed to manage public tra
 The system utilizes 10 interconnected tables bridging Geography and Transport Infrastructure via a Ticket transaction.
 * **One-to-Many:** `Station` -> `User`
 * **One-to-One:** `User` -> `Wallet`
-* **Many-to-Many:** `Bus` <-> `Route`
+* **Many-to-Many:** `Bus` <-> `Route
+![ERD](<Screenshots/Drawing1.jpg>)
 
 ### 2. Hierarchical Geographical Saving
 Safely links districts to larger provinces to maintain referential data integrity.
